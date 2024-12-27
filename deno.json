@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "webdriverio": "npm:webdriverio@^9.4.5"
+  },
+  "tasks": {
+    "clean": "rm -rf output",
+    "e2e": "deno test --allow-all"
+  }
+}
